@@ -1,4 +1,4 @@
-# WebDel Tester
+# WebDel Tester for Sigur
 
 Независимый инструмент для тестирования интеграций Sigur WebDel.
 
@@ -11,7 +11,7 @@
 
 # Возможности
 
-WebDel Tester позволяет:
+WebDel Tester позволяет поднять локальный сервер для того чтобы:
 
 * тестировать URL делегирования WebDel;
 * тестировать `/webdel/logs`;
