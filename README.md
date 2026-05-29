@@ -1,8 +1,95 @@
 # WebDel Tester
 
-Independent WebDel testing tool for Sigur integrations.
+Независимый инструмент для тестирования интеграций Sigur WebDel.
 
-Author: Anton Dyukin aka ThrottleMars  
-License: Commercial Attribution License. See LICENSE.txt.
+Автор: Антон Дюкин aka ThrottleMars
+Лицензия: Commercial Attribution License
 
-This project is not an official Sigur product and is not affiliated with or endorsed by Sigur.
+Проект не является официальным продуктом Sigur и не аффилирован с компанией Sigur.
+
+---
+
+# Возможности
+
+WebDel Tester позволяет:
+
+* тестировать URL делегирования WebDel;
+* тестировать `/webdel/logs`;
+* вручную отвечать на запросы Sigur;
+* эмулировать внешнюю систему;
+* просматривать очередь запросов;
+* анализировать JSON payload;
+* тестировать:
+
+  * карты доступа;
+  * LPR / госномер;
+  * reqPin;
+  * reqOpr;
+  * reqEscort;
+  * faceVer;
+  * alkoProb;
+  * extReaderConf;
+  * dReadAction.
+
+---
+
+# Запуск
+
+Запустите:
+
+```text id="cl0x4n"
+WebDelTester.exe
+```
+
+После запуска автоматически откроется Web UI.
+
+---
+
+# URL для подключения Sigur
+
+## Делегирование доступа
+
+```text id="xqczmo"
+http://IP_ПК:8080/webdel
+```
+
+---
+
+## Доставка проходов
+
+```text id="nb9yv7"
+http://IP_ПК:8080/webdel/logs
+```
+
+---
+
+# Режимы работы
+
+## Automatic
+
+WebDel Tester автоматически отвечает на запросы Sigur.
+
+---
+
+## Manual
+
+Каждый запрос помещается в очередь ожидания.
+Оператор вручную формирует JSON ответ.
+
+---
+
+# Лицензия
+
+Коммерческое использование разрешено только с обязательным указанием автора.
+
+Подробнее:
+
+* LICENSE.txt
+
+---
+
+# Disclaimer
+
+Это независимый инструмент сообщества для тестирования интеграций Sigur WebDel.
+
+Все товарные знаки и названия продуктов принадлежат их правообладателям.
